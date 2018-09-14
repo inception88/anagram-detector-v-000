@@ -7,7 +7,7 @@ attr_accessor :name
 
   def match(array)
     matches = []
-    anagram = @name.split(/\w/) 
+    anagram = self.split(/\w/) 
     array.collect do |word|
     letters = word.split(/\w/)
     if letters.sort == anagram.sort
