@@ -6,7 +6,11 @@ attr_accessor :name
   end
 
   def match(array)
+    matches = []
     array.collect do |word|
-      word.split()
+    letters = word.split(/\w/)
+    @name 
+    end
+    matches
   end
 end
