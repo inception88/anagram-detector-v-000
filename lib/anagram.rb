@@ -13,6 +13,7 @@ attr_accessor :name
     if letters.sort == anagram.sort
       matches << word
     end
-    matches
+  end
+  matches
   end
 end
