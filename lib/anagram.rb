@@ -5,7 +5,7 @@ attr_accessor
     
   end
 
-  def match
+  def match(array)
   
   end
 end
